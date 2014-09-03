@@ -1,3 +1,23 @@
+* {
+	margin-left: 0;
+	margin-top: 0;
+}
 body {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: cyan;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	background-color: white;
+	color: blue;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+	padding-top: 0.5em;
+}
+#menu {
+	background-color: black;
+	color: white;
+	font-size: 1.5em;
+}
+#inputSection, #resultSection {
+	margin-left: 2em;
 }

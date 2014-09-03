@@ -10,5 +10,6 @@ libraryDependencies ++= Seq(
   javaJdbc,
   javaEbean,
   cache,
+  "commons-httpclient" % "commons-httpclient" % "3.1",
   javaWs
 )
