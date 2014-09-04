@@ -1,23 +1,16 @@
 package controllers;
 
-import play.data.Form;
+import org.apache.commons.httpclient.HttpClient;
+import org.apache.commons.httpclient.methods.PostMethod;
+import org.apache.commons.httpclient.methods.StringRequestEntity;
+
 import play.data.DynamicForm;
-import play.libs.F.Function;
-import play.libs.F.Promise;
+import play.data.Form;
 import play.mvc.Controller;
 import play.mvc.Result;
-import play.*;
-import play.mvc.*;
-import play.libs.ws.WS;
-import play.libs.ws.WSResponse;
-import views.html.*;
-
-import org.apache.commons.httpclient.*;
-import org.apache.commons.httpclient.methods.*;
-import org.apache.commons.httpclient.params.HttpMethodParams;
-
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import views.html.authenticated;
+import views.html.index;
+import views.html.notAuthenticated;
 
 public class Application extends Controller {
 
